@@ -1,0 +1,19 @@
+{
+    "reporting_entity_name": "Zelis Test",
+    "reporting_entity_type": "health insurance issuer",
+    "reporting_plans": [{
+      "plan_name": "1gb Logging",
+      "plan_id_type": "ein",
+      "plan_id": "17090731852489",
+      "plan_market_type": "individual"
+    }],
+    "last_updated_on": "2022-02-15",
+    "version": "1.0.0",
+    "in_network"; [{ 
+    "negotiation_arrangement": "ffs",
+    "name": "Fake Procedure Injgzmtk0mdm",
+    "billing_code_type": "CPT",
+    "billing_code_type_version": "2020",
+    "billing_code": "53310",
+    "description": "Description of Fake Procedure Injgzmtk0mdm"
+}

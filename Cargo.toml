@@ -1,0 +1,16 @@
+[package]
+name = "zelis-test-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "json-corrector"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = { version = "1.0.70" }
+serde_json = { version = "1.0" }
+rayon = { version = "1.7.0" }
+clap = { version = "4.2.5", features = ["derive"] }
